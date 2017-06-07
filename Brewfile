@@ -12,7 +12,7 @@ tap 'homebrew/versions'
 #
 
 # OSX Terminal stuff that will make your life easier
-brew 'bash'
+# brew 'bash'
 brew 'coreutils'
 brew 'curl'
 brew 'git'
@@ -38,7 +38,7 @@ cask '1password'
 cask 'appcleaner'
 # remove apps with system setting files
 
-cask 'caffeine'
+cask 'amphetamine'
 # can keep you mac awake when you give a talk for example
 
 cask 'disk-inventory-x'
@@ -59,13 +59,10 @@ cask 'recordit'
 cask 'rightfont'
 # good font management for osx
 
-cask 'fontstand'
-# try expensive fonts for 1h
-
 # cask 'bartender'
 # hide some icons from the OSX toolbar
 
-mas 'DoublePane', id: 409737246
+# mas 'DoublePane', id: 409737246
 # rearrange your OSX windows with shortcuts
 
 cask 'the-unarchiver'
@@ -93,7 +90,7 @@ cask 'webpquicklook'
 cask 'atom'
 # free and powerful text editor
 
-# cask 'sublime-text'
+cask 'sublime-text'
 # alternative text editor (a bit faster then atom, but less easy to use)
 
 cask 'haroopad'
@@ -111,19 +108,14 @@ cask 'haroopad'
 cask 'google-chrome'
 cask 'google-drive'
 
-cask 'transmit'
-# ftp
-
 cask 'transmission'
 # torrents
 
 #
 # Collaboration
 #
-mas 'Dropmark', id: 554314609
 cask 'slack'
 cask 'skype'
-cask 'github-desktop'
 # github UI
 
 
@@ -158,7 +150,7 @@ cask 'invisionsync'
 cask 'noun-project'
 # noun project icon finder
 
-cask 'zeplin'
+# cask 'zeplin'
 # zeplin
 
 cask 'principle'
